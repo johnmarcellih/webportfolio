@@ -6,11 +6,29 @@ body{
 #navBar{
     background-color: #CECECE;
     position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 #headShot{
     margin-left: 25%;
 }
+
+#aboutme{
+    font-family: 'Quicksand', sans-serif !important;
+}
 #mainlanding{
     color: #CECECE;
+}
+#ProjectSection{
+    color:#CECECE;
+}
+#pTools{
+    color: #CECECE;
+}
+#contactpage{
+    color: #CECECE;
+}
+#contactsheet{
+    background-color:#30445c;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body id="contactpage">
+    <div class="min-vh-100 p-5 text-center bg-dark">
+        <h3>Contact Me</h3>
+        <div class="row">
+            <div class="offset-md-2 col-md-8 offset-xl-4 col-xl-4" id="contactsheet">
+                <form>
+                <div>
+                    <label for="fName">Full Name</label>
+                    <input type="text" id="fName" class="form-control form-rounded" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <label for="Email">Email Address</label>
+                    <input type="Email" id="Email" class="form-control form-rounded" placeholder="Email Address" required>
+                </div>
+                <div>
+                    <label for="cNumber">Contact Number</label>
+                    <input type="text" id="cNumber" class="form-control form-rounded" placeholder="Contact Number" required>
+                </div>
+                <h6>Concern</h6>
+                <select class="form-control form-rounded" aria-label="Default select example">
+                    <option selected>Quotation</option>
+                    <option value="1">Appointment</option>
+                    <option value="2">Follow Up</option>
+                  </select>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" rows="8"></textarea>
+                </div>
+                <button type="button" class="btn btn-dark mb-3" data-toggle="modal" data-target="#exampleModal">
+                    Send Email
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body p-3">
+                          <div class="text-center text-dark">
+                            <h7>Message Successfully Sent</h7>
+                          </div>
+                          <div class="modal-footer pt-5">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
