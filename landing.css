@@ -25,6 +25,8 @@ body{
 }
 #pTools{
     color: #CECECE;
+    overflow: hidden;
+    overflow: none;
 }
 #contactpage{
     color: #CECECE;
