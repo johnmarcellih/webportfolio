@@ -1,0 +1,16 @@
+body{
+    background-color: #30445c;
+    font-family: 'Mulish', sans-serif;
+}
+
+#navBar{
+    background-color: #CECECE;
+    position: sticky;
+}
+
+#headShot{
+    margin-left: 25%;
+}
+#mainlanding{
+    color: #CECECE;
+}
