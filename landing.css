@@ -1,6 +1,7 @@
 body{
     background-color: #30445c;
     font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #navBar{
