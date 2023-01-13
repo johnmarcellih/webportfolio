@@ -2,6 +2,7 @@ body{
     background-color: #30445c;
     font-family: 'Mulish', sans-serif;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 #navBar{
@@ -34,4 +35,95 @@ body{
 }
 #contactsheet{
     background-color:#30445c;
+}
+
+#tools {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif !important;
+  }
+  #tools li {
+    flex: 1;
+  }
+  #tools li a {
+    text-decoration: none;
+    color: inherit;
+    padding-top: 1rem;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    font-size: 40px;
+  }
+  #tools li a span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    font-size: 22px;
+    margin-top: 1rem;
+  }
+  
+  @media (hover: hover) {
+    #tools li a span {
+      transform: translateY(100px);
+      transition: 0.2s;
+    }
+    #tools:hover span {
+      transform: translateY(0);
+    }
+    #tools li:nth-child(1) span {
+      transition-delay: 0.0s;
+    }
+    #tools li:nth-child(2) span {
+      transition-delay: 0.05s;
+    }
+    #tools li:nth-child(3) span {
+      transition-delay: 0.1s;
+    }
+    #tools li:nth-child(4) span {
+      transition-delay: 0.15s;
+    }
+  
+  
+  
+  
+  
+  
+  
+  .list li:nth-child(1) {
+    background: #30445c;
+  }
+  .list li:nth-child(2) {
+    background: #30445c;
+  }
+  .list li:nth-child(3) {
+    background: #30445c;
+  }
+  .list li:nth-child(4) {
+    background: #30445c;
+  }
+}
+
+h1{
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 480px){
+    #toolimg{
+        align-items: center;
+    }
+
+}
+
+.hidden{
+  opacity: 0;
+  transition: 0.2s ease-in;
+  word-wrap:normal;
+  text-align:justify;
+}
+
+#hovertest:hover .hidden{
+  opacity: 1;
 }

@@ -1,0 +1,46 @@
+<div class="container-fluid text-center pt-5 pb-5 mb-5 vh-50 row">
+            <div class="col-md-3 offset-md-3">
+            <!-- Core Tools Section Start -->
+                <div class="col-11 col-md-10 offset-md-1 offset-1">
+                <h3 class="pt-5">Core Tools</h3>
+                </div>
+                <div class="col-9 offset-2 col-md-8 col-offset-0">
+                    <div>
+                        <img width="100" class="img-fluid" src="images/logo-html5.png"/>
+                        <img width="100" class="img-fluid" src="images/logo-css3.png"/>
+                        <img width="100" class="img-fluid" src="images/logo-javascript.png"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Core Tools Section End -->
+            
+            <div class="col-md-3 ml-md-5 container-fluid align-items-sm-center row">
+            <!-- Other Tools Section Start -->
+                <h3 class="pt-5 offset-1 offset-md-1 col-12 col-md-11">Other Tools</h3>
+                <div class="justify-content-center align-items-center">
+                    <div class="row col-md-12 coll-11 offest-1 offset-md-0 pr-md-0 pr-4">
+                        <div class="col-md-3 offset-md-3 offset-4 col-4 align-items-sm-center">
+                            <img width="100" class="img-fluid" src="images/logo-mongodb.png"/>
+                            <img width="100" class="img-fluid" src="images/logo-nodejs.png"/>
+                            <img width="100" class="img-fluid" src="images/logo-expressjs.png"/>
+                        </div>
+                        <div class="col-4 ml-md-3 mt-5 mt-md-3">
+                            <img width="100" class="img-fluid" src="images/logo-react.png"/>
+                            <img width="100" class="img-fluid" src="images/logo-heroku.png"/>
+                        </div>
+
+                    </div>
+                    <div class="row ml-md-3">
+                        <div class="col-md-3 offset-md-3 col-3 offset-4">
+                                <img width="75" class="img-fluid" src="images/logo-git.png"/>
+                                <img width="75" class="img-fluid" src="images/logo-sublime-text-3.png"/>
+                        </div>
+                        <div class="col-md-3 col-3 ml-md-2 mt-2">
+                                <img width="75" class="img-fluid" src="images/logo-postman.png"/>
+                                <img width="75" class="img-fluid" src="images/logo-gitlab-ci-cd.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Other Tools Section End -->
+        </div>
